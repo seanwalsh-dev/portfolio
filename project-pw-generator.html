@@ -1,0 +1,286 @@
+<!-- 
+  TODO: 
+    -create live and code link
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sean Walsh Password Generator</title>
+    <meta name="description" content="Case study page of Password Generator" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+<!-- Header -->
+
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/img/headshot-img.jpg"
+              alt="headshot image of Sean Walsh"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Sean Walsh</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+<!-- Hero Page -->
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Password Generator</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Create strong, secure passwords instantly — customize length, symbols, and numbers with a clean, responsive interface built in pure JavaScript.
+          </p>
+        </div>
+
+<!-- Live Link Button -->
+
+        <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+        </div>
+      </div>
+    </section>
+
+<!-- Project Details Section -->
+
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/img/password-generator-screenshot.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+<!-- TODO: put in body text -->
+                <p class="project-details__desc-para">
+                  This Password Generator is a responsive web application built with HTML, CSS, and JavaScript that allows users to create strong, secure passwords quickly. Users can customize their passwords by selecting the desired length and choosing whether to include numbers and symbols. The interface features a clean, modern design with a dark/light mode toggle and a clear layout that displays two generated passwords at once for convenience.
+                </p>
+                <p class="project-details__desc-para">
+                  The JavaScript logic ensures randomness and security by combining letters, numbers, and symbols dynamically based on user selections. The app also automatically updates and displays passwords in real time without requiring page reloads, providing a seamless and interactive user experience. This project demonstrates a strong understanding of DOM manipulation, event handling, and responsive design principles.
+                </p>
+              <h3 class="project-details__content-title">
+                Key Elements
+              </h3>
+                <h4 class="header__logo-sub">
+                  Customizable Password Generation
+                </h4>
+                  <p class="project-details__desc-para">
+                    Users can adjust the password length (8–15 characters) and toggle the inclusion of symbols and numbers to create secure, personalized passwords.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Dual Password Output
+                </h4>
+                  <p class="project-details__desc-para">
+                    Generates two unique passwords simultaneously for user convenience, making it easy to choose or compare options.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Dark/Light Mode Toggle
+                </h4>
+                  <p class="project-details__desc-para">
+                    Users can switch between dark and light themes, ensuring readability and comfort across different environments.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Interactive UI
+                </h4>
+                  <p class="project-details__desc-para">
+                    Users can switch between dark and light themes, ensuring readability and comfort across different environments.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Technical Implementation
+                </h4>
+                  <p class="project-details__desc-para">
+                    The Password Generator is built with semantic HTML, modern CSS, and vanilla JavaScript to create a fully interactive and responsive user experience. The layout and styling are managed with CSS, including dark/light mode toggling, dual password display boxes, and custom toggle switches for symbols and numbers. JavaScript handles the dynamic functionality: it generates random passwords based on user-selected criteria, updates the DOM in real time, and ensures that the displayed passwords reflect the current settings for length, symbols, and numbers. Event listeners manage user interactions with buttons, inputs, and toggles, allowing the application to respond instantly without page reloads. The project also leverages local state management within the browser to maintain consistent behavior across interactions, creating a smooth and reliable experience. This approach demonstrates how logic, UI, and user preferences can be seamlessly integrated into a cohesive frontend application
+                  </p>
+                <h4 class="header__logo-sub">
+                  Purpose and Impact
+                </h4>
+                  <p class="project-details__desc-para">
+                  This project demonstrates the integration of interactive JavaScript logic with clean, modern design principles. It provided hands-on experience with: Manipulating the DOM dynamically, Managing user input and state in a small-scale application, Designing an interface that is both visually appealing and highly functional. The Password Generator serves as a practical, real-world tool while highlighting proficiency in frontend development, UI design, and user-centered programming.
+                  </p>
+            </div>
+
+<!-- Tools Used -->
+
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <!--<div class="skills__skill">React</div>
+                <div class="skills__skill">Tailwind CSS</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Jasmine</div>
+                <div class="skills__skill">Wordpress</div>
+                <div class="skills__skill">Google ADS</div>
+                <div class="skills__skill">Facebook Ads</div>
+                <div class="skills__skill">Android</div>
+                <div class="skills__skill">IOS</div> -->
+              </div>
+            </div>
+
+<!-- Live & Code Link -->
+
+<!-- TODO: create live and code link -->
+
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="#"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/img/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Sean Walsh</h4>
+            <p class="main-footer__short-desc">
+              Let’s build something amazing together.<br>
+              contact.seanwalsh.dev@gmail.com
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div> -->
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

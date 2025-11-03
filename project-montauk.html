@@ -1,0 +1,280 @@
+<!-- 
+  TODO: 
+    -CSS for <ul>
+    -create live and code link
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sean Walsh Montauk Brewing Company Beer List</title>
+    <meta name="description" content="Case study page of Montauk Brewing Company Beer List" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+<!-- Header -->
+
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/img/headshot-img.jpg"
+              alt="headshot image of Sean Walsh"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Sean Walsh</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+<!-- Hero Page -->
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Montauk Brewing Company Beer List</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Explore Montauk Brewing Company's full lineup of craft beers, from refreshing IPAs to seasonal ales. Each beer is showcased with its unique flavor profile and vibrant can design.
+          </p>
+        </div>
+
+<!-- Live Link Button -->
+
+        <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+        </div>
+      </div>
+    </section>
+
+<!-- Project Details Section -->
+
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/img/montauk-screenshot-2.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+                <p class="project-details__desc-para">
+                  The Montauk Brewing Company Beer List Website is a responsive, single-page project designed to capture the clean, coastal aesthetic of Montauk Brewing Company while showcasing its lineup of craft beers. Built using HTML5 and CSS3, this project focuses on brand-inspired design, structured content presentation, and intuitive navigation, all while maintaining a handcrafted visual style that reflects the laid-back charm of Montauk itself.
+                </p>
+                <p class="project-details__desc-para">
+                  The site serves as both a design and coding exercise — translating a real-world brand’s visual identity into a cohesive, functional web experience. Each section highlights a different beer, featuring its unique flavor profile, ABV, and can design, while maintaining visual consistency across the layout.
+                </p>
+              <h3 class="project-details__content-title">
+                Key Elements
+              </h3>
+                <h4 class="header__logo-sub">
+                  Brand-Driven Aesthetic
+                </h4>
+                  <p class="project-details__desc-para">
+                    The color palette, typography, and layout are inspired directly by Montauk Brewing Company’s iconic can designs, incorporating soft pastels, clean lines, and minimal textures. The visual hierarchy emphasizes readability and a sense of open space, evoking the relaxed feel of a seaside brewery.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Structured Beer Showcase
+                </h4>
+                  <p class="project-details__desc-para">
+                    Each beer is displayed within its own section, including a short description, key stats, and a visual cue drawn from the can’s color scheme. The design highlights both the individuality of each brew and the cohesion of the Montauk brand identity.
+                  </p>
+                <h4 class="header__logo-sub">
+                  User-Friendly Navigation
+                </h4>
+                  <p class="project-details__desc-para">
+                    A simple, fixed navigation bar allows users to move smoothly between beer categories. Hover effects and interactive back links make the browsing experience feel dynamic without requiring JavaScript, demonstrating what can be accomplished through CSS alone.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Technical Implementation
+                </h4>
+                  <p class="project-details__desc-para">
+                    Built entirely with semantic HTML and custom CSS, with an emphasis on clean structure and maintainability. Uses Flexbox and Grid layouts to create responsive sections that adapt seamlessly to desktop, tablet, and mobile screens. Incorporates hover transitions, background gradients, and custom shapes built purely with div elements to simulate Montauk’s can aesthetic. Ensures accessibility through clear visual contrast, legible font sizing, and consistent spacing across all elements.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Purpose and Impact
+                </h4>
+                  <p class="project-details__desc-para">
+                  This project demonstrates strong CSS craftsmanship and front-end design fundamentals, translating real-world branding into a responsive, aesthetically consistent web experience. It reflects an understanding of user-centered layout, visual rhythm, and branding cohesion, while reinforcing how creative CSS and HTML alone can produce a polished, professional result.
+                  </p>
+            </div>
+
+<!-- Tools Used -->
+
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <!-- <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">React</div>
+                <div class="skills__skill">Tailwind CSS</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Jasmine</div>
+                <div class="skills__skill">Wordpress</div>
+                <div class="skills__skill">Google ADS</div>
+                <div class="skills__skill">Facebook Ads</div>
+                <div class="skills__skill">Android</div>
+                <div class="skills__skill">IOS</div> -->
+              </div>
+            </div>
+
+<!-- Live & Code Link -->
+
+<!-- TODO: create live and code link -->
+
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="#"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/img/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Sean Walsh</h4>
+            <p class="main-footer__short-desc">
+              Let’s build something amazing together.<br>
+              contact.seanwalsh.dev@gmail.com
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div> -->
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

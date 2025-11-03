@@ -1,0 +1,271 @@
+<!-- 
+  TODO: 
+    -css for ul/ol 
+    -create live and code link
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sean Walsh Aperture Labs Medical Questionaire</title>
+    <meta name="description" content="Case study page of Aperture Labs Medical Questionaire" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/img/headshot-img.jpg"
+              alt="headshot image of Sean Walsh"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Sean Walsh</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Aperture Labs Medical Questionaire </h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Aperture Science welcomes you to your mandatory pre-test screening. Complete the questionnaire, prove your eligibility for testing, and try not to die in the process.
+          </p>
+        </div>
+
+<!-- TODO: create live and code link -->
+
+        <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/img/aperture-screenshot-2.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">
+                Project Overview
+              </h3>
+              <p class="project-details__desc-para">
+                This project is an interactive, gamified web application designed as a parody of the iconic Aperture Science universe from the Portal video game series. It combines immersive storytelling, user input collection, and dynamic UI feedback to create an engaging experience that feels like stepping into a test chamber.
+              </p>
+              <p class="project-details__desc-para">
+                The core feature is a multi-section medical pre-test questionnaire, which collects fictional participant data across categories such as personal identification, cognitive and mental status, medical history, nutritional habits, genetic mutations, and consent. Each section uses a combination of input types, including text fields, radio buttons, checkboxes, dropdowns, and text areas, demonstrating advanced form handling and UX design.
+              </p>
+
+<!-- TODO: css for ul/ol -->
+              <h3 class="project-details__content-title">
+                Key Elements
+              </h3>
+                <h4 class="header__logo-sub">
+                  Gamified User Experience
+                </h4>
+                  <p class="project-details__desc-para">
+                    A starting screen sets the narrative, challenging users to complete the questionnaire under a strict six-minute timer. Users are met with playful, narrative-driven feedback messages for each input, enhancing immersion and humor. Easter eggs and interactive “death” or “rebellion” screens appear based on user choices, mimicking the unpredictability and dark humor of the Portal series.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Dynamic Front-End Interactions
+                </h4>
+                  <p class="project-details__desc-para">
+                    Real-time form validation with interactive tooltips provides feedback on user input (e.g., test subject ID, age). Conditional screens and modals trigger dynamically depending on user choices (e.g., companion cube interaction, opting out). A custom countdown timer adds tension and urgency, updating in hundredths of a second.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Responsive and Accessible Design
+                </h4>
+                  <p class="project-details__desc-para">
+                    Built with HTML5 and CSS3, the layout is fully responsive across desktops, tablets, and mobile devices. Design emphasizes clarity, readability, and user guidance, while maintaining a thematic, immersive style aligned with the Aperture aesthetic.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Data Handling and Storage
+                </h4>
+                  <p class="project-details__desc-para">
+                    Form submissions are processed and pushed to Firebase Realtime Database, demonstrating cloud-based data storage and integration. Data is collected in structured JSON objects, enabling future analytics or further interaction simulations.
+                  </p>
+                <h4 class="header__logo-sub">
+                  Thematic and Visual Integration
+                </h4>
+                  <p class="project-details__desc-para">
+                    Strong branding through custom typography, color palette, and imagery reflects Aperture Science’s futuristic, sterile, yet darkly comedic environment. Animation and imagery enhance narrative storytelling (e.g., GLaDOS GIFs, turret animations, companion cube interactions).
+                  </p>
+                <h4 class="header__logo-sub">
+                  Purpose and Impact
+                </h4>
+                  <p class="project-details__desc-para">
+                    This project showcases a combination of front-end design, UX-focused interactivity, gamification, and cloud integration while demonstrating creativity, humor, and narrative-driven web development. It is an example of how user input forms can be transformed into an engaging, interactive experience that goes beyond traditional data collection.
+                  </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <!-- <div class="skills__skill">React</div>
+                <div class="skills__skill">SASS</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Shopify</div>
+                <div class="skills__skill">Wordpress</div>
+                <div class="skills__skill">Google ADS</div>
+                <div class="skills__skill">Facebook Ads</div>
+                <div class="skills__skill">Android</div>
+                <div class="skills__skill">IOS</div> -->
+              </div>
+            </div>
+<!-- TODO: create live and code link -->
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="#"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/img/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Sean Walsh</h4>
+            <p class="main-footer__short-desc">
+              Let’s build something amazing together.<br>
+              contact.seanwalsh.dev@gmail.com
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div> -->
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
